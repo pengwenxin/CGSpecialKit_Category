@@ -1,0 +1,30 @@
+{
+  "name": "CGSpecialKit_Category",
+  "version": "2",
+  "summary": "A short description of CGSpecialKit_Category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pengwenxin/CGSpecialKit_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pengwenxin": "980120476@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/pengwenxin/CGSpecialKit_Category.git",
+    "tag": "2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CGSpecialKit_Category/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "CGAPIsKit": [
+
+    ]
+  }
+}
