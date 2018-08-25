@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CTMediator/CTMediator.h>
-#import <CGAPIsKit/APIRequest.h>
-#import <CGAPIsKit/FFReformProtocol.h>
+#import <TTAPIsKit/APIRequest.h>
+#import <TTAPIsKit/FFReformProtocol.h>
 
 @interface CTMediator (Special)
 

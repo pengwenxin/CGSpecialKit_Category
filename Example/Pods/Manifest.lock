@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - CGSpecialKit_Category (3):
+  - CGSpecialKit_Category (4):
     - CTMediator
     - TTAPIsKit
   - CGToolsKit (1):
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  CGSpecialKit_Category: 89173e324f20418d2a52f9ea3d914dd36a5c7383
+  CGSpecialKit_Category: 2841c94a1417976447c14ffa836d8410aa32e7e8
   CGToolsKit: 73d64bb4fb1d01c76a795d5d82e9f3f4991540b1
   CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
