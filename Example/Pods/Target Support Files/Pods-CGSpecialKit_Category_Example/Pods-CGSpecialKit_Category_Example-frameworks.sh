@@ -144,15 +144,21 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CGAPIsKit/CGAPIsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CGSpecialKit_Category/CGSpecialKit_Category.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CGToolsKit/CGToolsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TTAPIsKit/TTAPIsKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CGAPIsKit/CGAPIsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CGSpecialKit_Category/CGSpecialKit_Category.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CGToolsKit/CGToolsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TTAPIsKit/TTAPIsKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CGSpecialKit_Category'
-  s.version          = '2'
+  s.version          = '3'
   s.summary          = 'A short description of CGSpecialKit_Category.'
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'CTMediator'
-  s.dependency  'CGAPIsKit'
+  s.dependency  'TTAPIsKit'
 end

@@ -1,6 +1,6 @@
 {
   "name": "CGSpecialKit_Category",
-  "version": "2",
+  "version": "3",
   "summary": "A short description of CGSpecialKit_Category.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pengwenxin/CGSpecialKit_Category",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pengwenxin/CGSpecialKit_Category.git",
-    "tag": "2"
+    "tag": "3"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,7 +23,7 @@
     "CTMediator": [
 
     ],
-    "CGAPIsKit": [
+    "TTAPIsKit": [
 
     ]
   }
